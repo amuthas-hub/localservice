@@ -5,24 +5,7 @@ import ServiceList from "./components/ServiceList";
 import "./App.css";
 
 function App() {
-  const [services, setServices] = useState([
-    {
-      id: 1,
-      provider: "Rahul Electricals",
-      serviceType: "Electrician",
-      location: "Chennai",
-      image:
-        "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=1000&auto=format&fit=crop",
-    },
-    {
-      id: 2,
-      provider: "AquaFix Plumbing",
-      serviceType: "Plumber",
-      location: "Coimbatore",
-      image:
-        "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1000&auto=format&fit=crop",
-    },
-  ]);
+  const [services, setServices] = useState([]);
 
   const [provider, setProvider] = useState("");
   const [serviceType, setServiceType] = useState("");
